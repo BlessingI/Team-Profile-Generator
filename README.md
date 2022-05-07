@@ -47,3 +47,6 @@
 
 ## Repo
 https://github.com/BlessingI/Team-Profile-Generator.git
+
+## Image
+![TeamProfileGenerator](./assests/images/teamProfileGeneratorPic.png)
