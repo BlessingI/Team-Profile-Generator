@@ -33,7 +33,7 @@ module.exports = templateData => {
                     <div class="card" style="width: 18rem;">
                         <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${data.id}</li>
-                        <li class="list-group-item">Email: ${data.email}</li>
+                        <li class="list-group-item">Email: <a href="#" style="text-decoration:none">${data.email}</a></li>
                         <li class="list-group-item"> officeNumber: ${data.officeNumber}</li>
                         </ul>
                     </div>
@@ -41,7 +41,6 @@ module.exports = templateData => {
                 </div>
             </div>`  
         }else if(data.github){
-            console.log('hey')
             employeeTemplate += `
             <div class="col-lg-3 mx-2 mb-3 col-sm-4">
             <div class="row bg-primary text-white">
@@ -53,8 +52,8 @@ module.exports = templateData => {
                 <div class="card" style="width: 18rem;">
                     <ul class="list-group list-group-flush">
                     <li class="list-group-item">ID: ${data.id}</li>
-                    <li class="list-group-item">Email: ${data.email}</li>
-                    <li class="list-group-item"> Github: ${data.github}</li>
+                    <li class="list-group-item">Email: <a href="#" style="text-decoration:none">${data.email}</a></li>
+                    <li class="list-group-item"> Github:<a href="https://github.com/BlessingI" style="text-decoration:none">${data.github}</a></li>
                     </ul>
                 </div>
 
@@ -73,7 +72,7 @@ module.exports = templateData => {
                 <div class="card" style="width: 18rem;">
                     <ul class="list-group list-group-flush">
                     <li class="list-group-item">ID: ${data.id}</li>
-                    <li class="list-group-item">Email: ${data.email}</li>
+                    <li class="list-group-item">Email: <a href="#" style="text-decoration:none">${data.email}</a></li>
                     <li class="list-group-item"> School: ${data.school}</li>
                     </ul>
                 </div>
