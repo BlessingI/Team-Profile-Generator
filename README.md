@@ -4,6 +4,8 @@
 ## Description
   🔍 This project is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable, This project also includes unit tests for each part of the code and ensures that it passes all of them.
 
+[Click on link to see a video of how the application works](https://youtu.be/YQeGtBf76Mk)
+
 ## User Story
       AS A manager
       I WANT to generate a webpage that displays my team's basic info
